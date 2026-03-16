@@ -1,2 +1,17 @@
 # volatility-returns-engine
-Volatility and Returns Analysis Engine is a Python script that pulls historical adjusted stock prices with yfinance, calculates daily returns, rolling annualized volatility, and max drawdown, then exports CSV summaries and generates Matplotlib charts for quick risk and performance comparison across tickers.
+
+A Python tool that downloads historical adjusted stock prices and computes returns and risk metrics, exporting CSV outputs and generating plots for quick comparison across tickers.
+
+## What it does
+• Downloads adjusted close prices for one or more tickers  
+• Computes daily returns (simple or log)  
+• Computes rolling annualized volatility  
+• Computes max drawdown and summary metrics  
+• Exports CSV files and saves plots
+
+## Install
+1 Create a virtual environment (optional)  
+2 Install dependencies
+
+```bash
+pip install -r requirements.txt
